@@ -5,9 +5,14 @@
     margin-bottom: 20px;
     background-color: lightgoldenrodyellow;
 }
+body {
+    background-color: #0d1117;
+    color: white;
+}
 h1 {
     margin-left: 20px;
     font-style: oblique;
+    color: black;
 }
 nav a {
     color: black;
@@ -24,4 +29,30 @@ h2 {
 }
 #image1 {
     text-align: center;
+}
+h3 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+#intro {
+    margin-top: 7px;
+    margin-bottom: 3cap;
+    font-size: 19px;
+}
+h4 {
+    margin-bottom: 0;
+    font-size: 25px;
+}
+#serving {
+    margin-top: 0;
+    font-size: 20px;
+}
+#ing8 {
+    margin-bottom: 2cap;
+}
+#method {
+    font-size: 25px;
+}
+#outro {
+    font-size: 20px;
 }
