@@ -1,7 +1,27 @@
-.box {
-    background: cyan;
-    padding: 16px;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: lightgoldenrodyellow;
 }
-.text {
+h1 {
+    margin-left: 20px;
+    font-style: oblique;
+}
+nav a {
+    color: black;
+    margin: 10px 20px;
+}
+
+nav a:hover {
+    color: blue;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+#image1 {
     text-align: center;
 }
