@@ -15,15 +15,15 @@ h1 {
     margin-left: 20px;
     color: white;
 }
-nav {
+#headernav {
     margin-right: 0cm;
     margin-left: 5cm;
 }
-nav a {
-    color: white;
-    margin: 50px 60px;
+#headernav #nav1 {
+    color: white;   
+    margin: 40px 50px;
 }
-nav a:hover {
+#headernav #nav1:hover {
     color: black;
 }
 #search {
@@ -31,4 +31,30 @@ nav a:hover {
     margin-left: 0cm;
     border-radius: 10px;
     text-align: center;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12cm;
+    background-color: #C19A6B;
+}
+#footernav {
+    margin-right: 0cm;
+    margin-left: 5cm;
+}
+#footernav #nav2 {
+    color: white;   
+    margin: 20px 10px;
+}
+#footernav #nav2:hover {
+    color: black;
+}
+#logo {
+    border-radius: 100px;
+    margin: 25px;
+}
+#icon {
+    margin-bottom: 100px;
+    margin-right: 15px;
 }
