@@ -17,6 +17,7 @@ h1 {
 nav a {
     color: black;
     margin: 10px 20px;
+    text-decoration: none;
 }
 nav a:hover {
     color: blue;
