@@ -4,6 +4,8 @@
     justify-content: space-between;
     margin-bottom: 40px;
     background-color: #C19A6B;
+    position: sticky;
+    top: 0;
 }
 body {
     color: white;
@@ -17,7 +19,7 @@ h1 {
 }
 #headernav {
     margin-right: 0cm;
-    margin-left: 9cm;
+    margin-left: 5cm;
 }
 #headernav #nav1 {
     color: white;   
@@ -33,6 +35,25 @@ h1 {
     border-radius: 10px;
     text-align: center;
 }
+#products {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 2cm;
+    text-shadow: 2px 2px 7px black;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu img{
+    width: 300px;
+    aspect-ratio: 1/1;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    object-fit: cover;
+}
 .footer {
     display: flex;
     align-items: center;
@@ -42,7 +63,7 @@ h1 {
 }
 #footernav {
     margin-right: 1cm;
-    margin-left: 5cm;
+    margin-left: 3cm;
 }
 #footernav #nav2 {
     color: white;   
@@ -57,13 +78,13 @@ h1 {
     margin-right: 10px;
 }
 .footerImgs {
-    margin-right: 21cm;
+    margin-right: 13cm;
 }
 #icon1, #icon2, #icon3 {
     margin: 10px;
 }
 #icon1 {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 p {
     margin-left: 5px;
