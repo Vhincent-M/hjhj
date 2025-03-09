@@ -6,15 +6,18 @@
     <title>tailwind</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-cover bg-blue-500">
-    <header class="text-center mt-30">
-        <div class="flex justify-center">
-            <img src="https://fastly.picsum.photos/id/500/200/200.jpg?hmac=YM_kCxc6fpX7ohYhMuMZ-oh5KlS16ixgqqD8kfLS7-g" alt="pic" width="400" class="rounded-full">
-        </div>
-        <h1 class="text-4xl font-bold text-white mt-2 rounded-full">Welcome to Our Website</h1>
-        <h2 class="text-l mt-2 text-white">We offer great products and services just for you.</h2>
-        <p class="text-sm mt-2 text-white">Explore and find what suits for your needs.</p>
-        <button class="bg-green-500 px-4 py-2 rounded-full mt-4">Get Started</button>
-    </header>
+<body>
+    <div class="bg-#C19A6B">
+        <h1>Concon's Bakeshop</h1>
+        <nav id="headernav">
+            <a id="nav1" href="#">Home</a>
+            <a id="nav1" href="#">Menu</a>
+            <a id="nav1" href="#">Location</a>
+            <a id="nav1" href="#">About</a>
+        </nav>
+        <form action="/search" method="get">
+            <input type="search" id="search" name="searchbar" placeholder="Search Product">
+        </form>
+    </div>
 </body>
 </html>
