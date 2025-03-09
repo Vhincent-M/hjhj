@@ -42,20 +42,25 @@ h1 {
     margin-bottom: 2cm;
     text-shadow: 2px 2px 7px black;
 }
-.body {
+.body{
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.menu {
+.menu{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .box{
+    width: 350px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    color: white;
     text-align: center;
     text-shadow: 2px 2px 7px black;
+    text-wrap: balance;
 }
-.box img {
+.box img{
     width: 300px;
     height: 300px;
     object-fit: cover;
