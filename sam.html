@@ -2,32 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Concon's Bakeshop</title>
-    <link rel="stylesheet" href="concon.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="description" content="Concon's Bakeshop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="sam.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
 </head>
-<body style="background:url(images/Cake\ back.jpg)">
-    <div class="header">
+<body style="background-image: url(background.jpg)">
+    <div id="header">
         <h1>Concon's Bakeshop</h1>
-        <nav id="headernav">
-            <a id="nav1" href="#">Menu</a>
-            <a id="nav1" href="#">Decorate your own cake</a>
-            <a id="nav1" href="#">Location</a>
-            <a id="nav1" href="#">About</a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="location.html">Location</a>
+            <a href="about.html">About Us</a>
         </nav>
         <form action="/search" method="get">
             <input type="search" id="search" name="searchbar" placeholder="Search Product">
         </form>
     </div>
-    <h2 id="products"><center>Our products</center></h2>
-    <div class="body">
-        <div class="menu">
+    <h2 id="our_products"><center>Our products</center></h2> <!--Dinagdag ko lang ito sa content mo -->
+    <div class="content"> <!-- Binago ko yung buong content mo try mo ito. -->
+        <div class="products"> 
             <div class="box">
-                <img src="images/cake.jpg" alt="grad cake" id="cake1">
-                <div class="desc">
+                <img src="images/cake.jpg" alt="grad cake" id="cake1"> <!-- Palitan mo nalang yung lamang ng "src" -->
+                <div class="desc"> <!-- description -->
                     <h2>Cake name</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptatem blanditiis nulla!</p>
                 </div>
@@ -69,33 +69,27 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer">
-            <img src="images/Concon-logo.png" alt="Website Logo" id="logo" width="150">
-            <div class="footerImgs">
-                <img src="images/faceb icon.png" alt="fb icon" id="icon1" width="50">
-                <img src="images/ig icon.png" alt="ig logo" id="icon2" width="49">
-                <img src="images/tt icon.png" alt="tiktok icon" id="icon3" width="50">
-                <p id="tagline">"Freshly baked, always loved"</p>
-            </div>
+    <footer> <!-- Di ko muna ginalaw itong footer mo kasi gusto ko muna makita yung itsura nung gawa mo dito -->
+        <div id="footer">
+          <img src="logo-removebg-preview.png" alt="Logo" width="150px" height="150px" style="border-radius: 10px;" />
+          
+          <div id="icons">
+            <img src="Facebook_logo_(square).png" alt="Facebook" height="25px" width="25px">
+            <img src="ig.png" alt="Instagram" height="25px" width="25px">
+            <img src="tiktok.png" alt="TikTok" height="25px" width="25px">
             
-            <nav id="footernav">
-                <a id="nav2" href="#">Our Story</a>
-                <a id="nav2" href="#">Terms & Conditions</a>
-                <a id="nav2" href="#">Privacy Policy</a>
-            </nav>
+            <p>"Freshly baked, Always loved."</p>
 
+          </div>
+
+          <div class="footernavbar">
+            <a href="our-story.html" id="nav-link">Our Story</a>
+            <a href="terms-and-conditions.html" id="nav-link">Terms & Conditions</a>
+            <a href="privacy-policy.html" id="nav-link">Privacy Policy</a>
+          </div>
         </div>
         
+        <p>© 2025 Concon's Bakeshop. All Rights Reserved.</p>  
     </footer>
-    
 </body>
 </html>
-<!-- <div class="menu">
-            <img src="images/cake.jpg" alt="grad cake" id="cake1">
-            <img src="images/cake2.jpg" alt="butter cake" id="cake2">
-            <img src="images/Gin Cake.jpg" alt="gin cake" id="cake3">
-            <img src="images/Barbie cake.jpg" alt="barbie cake" id="cake1">
-            <img src="images/cakenum2.jpg" alt="butter cake" id="cake2">
-            <img src="images/caupcake2.jpg" alt="gin cake" id="cake3">
-        </div> -->
