@@ -19,21 +19,21 @@
                 <hr class="border-x border-stone-300"/>
                 <div class="mt-2">
                     <label for="Item Name" class="block font-medium mb-1">Item Name*</label>
-                    <input type="text" name="item" placeholder="e.g. Sourdough Bread, Chocolate Croissant" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600">
+                    <input type="text" name="item" placeholder="e.g. Sourdough Bread, Chocolate Croissant" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600" required>
                 </div>
                 <div class="mt-3">
                     <label for="Category" class="block font-medium mb-1">Category*</label>
-                    <select class="py-1 px-2 bg-stone-300 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-600">
+                    <select class="py-1 px-2 bg-stone-300 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-600" required>
                         <option value="" selected>Select a category</option>
-                        <option value="bread">Bread</option>
-                        <option value="cake">Cake</option>
-                        <option value="donut">Donuts</option>
+                        <option value="bread">Breads</option>
+                        <option value="cake">Pastries</option>
+                        <option value="donut">Cakes</option>
                         <option value="coffee">Coffee</option>
                     </select>
                 </div>
                 <div class="mt-3">
                     <label for="Price" class="block font-medium">Price ($)*</label>
-                    <input type="number" placeholder="0.00" min="0" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600">
+                    <input type="number" placeholder="0.00" min="0" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600" required>
                 </div>
                 <div class="mt-3">
                     <label for="Description" class="block font-semibold mb-1">Description</label>

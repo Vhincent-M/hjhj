@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-[#fffbeb]">
+    <div class="text-center mt-4">
+        <h1 class="text-amber-900 font-sans font-bold text-3xl">Sweet Delights Bakery</h1>
+        <p class="text-[#d37029] font-medium mt-1.5">Add New Category</p>
+    </div>
+    <div class="flex items-center justify-center mt-6">
+        <div class="bg-white p-5 rounded-lg shadow-md w-full max-w-xl">
+            <form action="#" method="post" class="">
+                <h2 class="text-2xl text-[#d37029] font-medium mb-2">Category Details</h2>
+                <hr class="border-x border-stone-300"/>
+                <div class="mt-2">
+                    <label for="Category Name" class="block font-medium mb-1">Category Name*</label>
+                    <input type="text" name="category" placeholder="e.g. Breads, Pastries, Cakes" class="py-1 px-2 border border-stone-300 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600" required>
+                    <p class="text-xs text-gray-600 mt-1">This name will be displayed to customers</p>
+                </div>
+                <div class="mt-3">
+                    <label for="Category_Description" class="block font-semibold mb-1">Category Description</label>
+                    <textarea name="category_description" placeholder="Describe this category of bakery items..." class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600"></textarea>
+                    <p class="text-xs text-gray-600">A brief description of this category</p>
+                </div>
+                <h3 class="mt-4 mb-2 text-2xl text-[#d37029] font-medium">Category Settings</h3>
+                <hr class="border-x border-stone-300">
+                <div class="mt-2">
+                    <label for="Status" class="block font-semibold">Status</label>
+                    <input type="radio" name="status" value="active" class="appearance-none border rounded-full w-3 h-3 checked:border-none focus:ring-3 focus:ring-amber-500">
+                    <span class="ml-1">Active</span>
+                    <input type="radio" name="status" value="draft" class="ml-6 appearance-none border rounded-full w-3 h-3 checked:border-none focus:ring-3 focus:ring-amber-500">
+                    <span class="ml-1">Draft</span>
+                    <p class="text-xs text-gray-600">Draft categories are not visible to customers</p>
+                </div>
+                <div class="mt-2 mb-6">
+                    <label for="fcategory"></label>
+                    <input type="checkbox" class="appearance-none w-[14px] h-[14px] border-2 border-amber-500 rounded checked:bg-amber-500">
+                    <span class="ml-2">Featured Category</span>
+                    <p class="text-sm text-gray-500 ml-6.5">Featured categories are highlighted on the homepage</p>
+                </div>
+                <hr class="border-x border-stone-300">
+                <div class="flex justify-between mt-4">
+                    <button type="reset" class="font-semibold px-5 py-2 bg-gray-300 rounded-lg hover:bg-gray-400 focus:outline-2 focus:outline-offset-2 focus:outline-gray-400 active:bg-gray-500 transition-all duration-200">Cancel</button>
+                    <button type="submit" class="font-semibold px-5 py-2 bg-amber-900 text-white rounded-lg hover:bg-amber-700 focus:outline-2 focus:outline-offset-2 focus:outline-amber-900 active:bg-amber-800 transition-all duration-200">Create Category</button>
+                </div>
+            </form> 
+        </div>
+    </div>
+    <footer>
+        <p class="text-center text-stone-800 text-sm mt-8">Sweet Delights Bakery © 2025</p>
+    </footer>
+</body>
+</html>
