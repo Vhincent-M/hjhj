@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-[#fffbeb]">
+    <div class="text-center mt-4">
+        <h1 class="text-amber-900 font-sans font-bold text-3xl">Sweet Delights Bakery</h1>
+        <p class="text-[#d37029] font-medium mt-1.5">Add New Item</p>
+    </div>
+    <div class="flex items-center justify-center mt-6">
+        <div class="bg-white p-5 rounded-lg shadow-md w-full max-w-xl">
+            <form action="#" method="post" class="">
+                <h2 class="text-2xl text-[#d37029] font-medium mb-2">Item Details</h2>
+                <hr class="border-x border-stone-300"/>
+                <div class="mt-2">
+                    <label for="Item Name" class="block font-medium mb-1">Item Name*</label>
+                    <input type="text" name="item" placeholder="e.g. Sourdough Bread, Chocolate Croissant" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600">
+                </div>
+                <div class="mt-3">
+                    <label for="Category" class="block font-medium mb-1">Category*</label>
+                    <select class="py-1 px-2 bg-stone-300 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-600">
+                        <option value="" selected>Select a category</option>
+                        <option value="bread">Bread</option>
+                        <option value="cake">Cake</option>
+                        <option value="donut">Donuts</option>
+                        <option value="coffee">Coffee</option>
+                    </select>
+                </div>
+                <div class="mt-3">
+                    <label for="Price" class="block font-medium">Price ($)*</label>
+                    <input type="number" placeholder="0.00" min="0" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600">
+                </div>
+                <div class="mt-3">
+                    <label for="Description" class="block font-semibold mb-1">Description</label>
+                    <textarea name="description" placeholder="Describe this bakery item..." class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600"></textarea>
+                </div>
+                <h3 class="mt-4 mb-2 text-2xl text-[#d37029] font-medium">Item Settings</h3>
+                <hr class="border-x border-stone-300">
+                <div class="mt-2">
+                    <label for="Status" class="block font-semibold">Status</label>
+                    <input type="radio" name="status" value="active" class="appearance-none border rounded-full w-3 h-3 checked:border-none focus:ring-3 focus:ring-amber-500">
+                    <span class="ml-1">Active</span>
+                    <input type="radio" name="status" value="inactive" class="ml-6 appearance-none border rounded-full w-3 h-3 checked:border-none focus:ring-3 focus:ring-amber-500">
+                    <span class="ml-1">Inactive</span>
+                </div>
+                <div class="mt-2 mb-6">
+                    <label for="fitem"></label>
+                    <input type="checkbox" class="appearance-none w-[14px] h-[14px] border-2 border-amber-500 rounded checked:bg-amber-500">
+                    <span class="ml-2">Featured Item</span>
+                    <p class="text-sm text-gray-500 ml-6.5">Featured items are highlighted on the category page</p>
+                </div>
+                <hr class="border-x border-stone-300">
+                <div class="flex justify-between mt-4">
+                    <button type="reset" class="font-semibold px-5 py-2 bg-gray-300 rounded-lg hover:bg-gray-400 focus:outline-2 focus:outline-offset-2 focus:outline-gray-400 active:bg-gray-500 transition-all duration-200">Cancel</button>
+                    <button type="submit" class="font-semibold px-5 py-2 bg-amber-900 text-white rounded-lg hover:bg-amber-700 focus:outline-2 focus:outline-offset-2 focus:outline-amber-900 active:bg-amber-800 transition-all duration-200">Add Item</button>
+                </div>
+            </form> 
+        </div>
+    </div>
+    <footer>
+        <p class="text-center text-stone-800 text-sm mt-8">Sweet Delights Bakery © 2025</p>
+    </footer>
+</body>
+</html>
